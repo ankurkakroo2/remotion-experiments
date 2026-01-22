@@ -1,0 +1,23 @@
+{
+  "name": "remotion-test",
+  "version": "1.0.0",
+  "description": "Ankur Kakroo Introduction Video",
+  "scripts": {
+    "start": "npx remotion studio src/index.ts",
+    "build": "npx remotion render src/index.ts Introduction out/introduction.mp4 --fps=60",
+    "render": "npx remotion render src/index.ts Introduction out/introduction.mp4 --fps=60"
+  },
+  "keywords": [],
+  "author": "Ankur Kakroo",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "4.0.407",
+    "@remotion/cli": "4.0.407",
+    "@remotion/google-fonts": "4.0.407",
+    "@remotion/transitions": "4.0.407",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.407",
+    "typescript": "5.9.3"
+  }
+}
